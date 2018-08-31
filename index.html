@@ -7,16 +7,16 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-
-  <link rel="stylesheet" href="/styles/styles.css"/>
+  <link rel="stylesheet" href="/css/material-scrolltop.css">
+  <link rel="stylesheet" href="/css/styles.css"/>
 
   <title>Portfolio: Karina Ramirez</title>
 </head>
 
 
-<body class="">
+<body class="container-bg">
   <!-- nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">KR</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -40,33 +40,28 @@
 
 
   <!-- header-->
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid primary-color clear-margin-bottom">
     <div class="container text-center">
-      <h1 class="display-4">hi my name is kae ramirez</h1>
-      <p class="lead">i can make things - cut to the chase: <a href="https://github.com/iamkaith">Github page</a> or read on </p>
+      <h1 class="display-5 stone-text">hi my name is kae ramirez</h1>
+      <p class="lead stone-text">i can make things - cut to the chase: <a href="https://github.com/iamkaith">Github page</a> or read on </p>
       </p>
     </div>
   </div>
 
-  <!-- main body -->
-  <div class="container bg-white">
-    
-    <!-- bio me -->
-    <div class="container extra-pad">
-      <h2 id="bio">Bio</h2>
-        <p>Let's get to know each other a little, I'll start.</p>
 
+  <div class="jumbotron jumbotron-fluid teal-accent">
+    <div class="container text-center">
+      <h1 class="display-5 stone-text" id="bio">Bio</h1>
+      <p class="lead stone-text">let's get to know each other a little, I'll start</p>
+      </p>
+    </div>
+  </div>
+  
+  <!-- bio body -->
+  <div class="container stone-text text-center extra-pad">
         <br/>
         <h5>School life</h5>
-        <p>I attended BCIT and completed a series of credentials for their CST diploma part-time</p>
-
-        <!--
-        <p>I started school late 2014 while I worked full-time as a Customer Service Representative for PBF Pita Bread Factory in North
-            Burnaby. I paid my way through the 2 years of school and attended 1-2 classes at night. Early 2016 I made the decision
-            to flip things around and made school my priority, I switched to part-time hours at work and I started attending 4-6 courses
-            a semester at BCIT to finish the CST diploma as quickly as possible. While my official graduation date at BCIT is 2019
-            I finished the majority of my courses by the end of 2018.
-        </p> -->
+        <p>I attended BCIT and completed a series of credentials for their CST diploma part-time. More information on my <a href="https://www.linkedin.com/in/kaeramirez/">LinkedIn</a></p>
 
         <br />
         <h5>Work life</h5>
@@ -78,56 +73,58 @@
         <h5>I like: reading, playing video games, exercising, and building model kits.</h5>
         <p>When I'm not coding I'm either kicking back with a novel (fantasy, sci-fi, adult fiction, historical fiction, and romance
             are my favourite genres), playing video games (GW2, Monster Hunter, Warframe), exercising, and building plastic mech model kits for fun!</p>
+  </div>
+
+
+  <div class="jumbotron jumbotron-fluid primary-accent charcoal-text">
+    <div class="container text-center">
+      <h1 class="display-5" id="skills">Skills &amp; Experience</h1>
+      <p class="lead">what I can do</p>
+    </div>
+  </div>
+
+    <div class="container extra-pad text-center stone-text">
+      <p>
+        I studied a variety of languages during my time at BCIT and I'm always looking to expand my dev toolbelt. I've organized
+        my experiences below based on my comfort level so you can get to the nitty-gritty of things.
+      </p>
+
+      <br/>
+      <h5>Comfortable - I am best with</h5>
+      <ul>
+        <li>Front-End: HTML5, JavaScript</li>
+        <li>Back-End: Java, Node.js (Express)</li>
+        <li>Non Relational Database: MongoDB</li>
+        <li>CSS Frameworks: Bootstrap, Material UI</li>
+        <li>Package Managers: npm</li>
+      </ul>
+
+      <br/>
+      <h5>Workable - I can work with</h5>
+      <ul>
+        <li>Front-End: CSS, AngularJS, ReactJS</li>
+        <li>Back-End: PHP, C#, User Authentication using OAuth3.0 </li>
+        <li>Relational Database: SQL</li>
+      </ul>
+
+      <br/>
+      <h5>Basic - I can relearn this</h5>
+      <ul>
+        <li>Front-End: jQuery</li>
+        <li>Back-End: C++</li>
+      </ul>
     </div>
 
-    <div class="container extra-pad">
-        <h2 id="skills">Skills &amp; Experience</h2>
-        <p>
-          I studied a variety of languages during my time at BCIT and I'm always looking to expand my dev toolbelt. I've organized
-          my experiences below based on my comfort level so you can get to the nitty-gritty of things.
-        </p>
-        
-        <br/>
-        <h5>Comfortable - I am best with</h5>
-        <ul>
-          <li>Front-End: HTML5, JavaScript (ES2015 mostly, still practicing with ES6)</li>
-          <li>Back-End: Java, Node.js (Express)</li>
-          <li>Non Relational Database: MongoDB, Mongoose</li>
-          <li>CSS Frameworks: Bootstrap, Material UI</li>
-          <li>Package Managers: npm, composer</li>
-        </ul>
-
-        <br/>
-        <h5>Workable - I can work with</h5>
-        <ul>
-          <li>Front-End: CSS, AngularJS, ReactJS</li>
-          <li>Back-End: PHP, C#, User Authentication using OAuth3.0 </li>
-          <li>Relational Database: SQL</li>
-        </ul>
-
-        <br/>
-        <h5>Basic - I can relearn this</h5>       
-        <ul>
-          <li>Front-End: jQuery</li>
-          <li>Back-End: C++</li>
-        </ul>
-      </div>
-    </div>
-
-      <div class="jumbotron jumbotron-fluid text-center">
+      <div class="jumbotron jumbotron-fluid text-center secondary-color stone-text">
           <div class="container">
             <h1 class="display-4">portfolio</h1>
-            <p class="lead">what have I made </p>
+            <p class="lead">web apps I've made </p>
             </p>
           </div>
         </div>
 
     <!-- projects -->
-    <div class="container extra-pad text-center">
-      <h2 id="projects">My Web Applications</h2>
-      <p>This section covers projects I've created during my free time as well as some assignments during my time at BCIT. </p>
-      <br/>
-
+    <div class="container text-center charcoal-text">
       <div class="row">
         <div class="col-sm-6">
           <div class="card shadow">
@@ -140,6 +137,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-sm-6">
           <div class="card shadow">
             <img class="card-img-top img-thumbnail" src="/img/pizzaPlace.PNG" alt="Image of ordering app">
@@ -156,11 +154,14 @@
     </div>
 
     <!-- websites -->
-    <div class="container extra-pad">
-      <h2 id="websites">My Websites</h2>
-      <p>Show case of static websites I've created for school and ones I made for fun.</p>
-      <br/>
+    <div class="jumbotron jumbotron-fluid text-center teal-accent stone-text">
+      <div class="container ">
+        <h1 class="display-4">my websites</h1>
+        <p class="lead">Show case of static websites I've created for school and ones I made for fun.</p>
+      </div>
+    </div>
 
+    <div class="container extra-pad text-center stone-text">
       <div id="websiteCarousel" class="carousel slide shadow" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#websiteCarousel" data-slide-to="0" class="active"></li>
@@ -199,33 +200,22 @@
         </a>
       </div>
     </div>
+  </div> 
+</div>
 
+<button class="material-scrolltop" type="button"></button>
 
-      <div class="container extra-pad">
-        <h2>Contact Me</h2>
-        <p>Let's get in touch you can reach me through: </p>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/kaeramirez/">LinkedIn</a></li>
-          <li>Email me at: <a href="mailto:Kae.Ramirez1@gmail.com">Kae.Ramirez1@gmail.com</a></li>
-        </ul>
-      </div>
+  <!-- contact me --> 
+  <div class="jumbotron jumbotron-fluid text-center primary-color stone-text clear-margin-bottom">
+    <div class="container">
+      <h1 class="display-4">contact me</h1>
+      <p class="lead">let's get in touch</p>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/kaeramirez/">LinkedIn</a></li>
+        <li>Email me at: <a href="mailto:Kae.Ramirez1@gmail.com">Kae.Ramirez1@gmail.com</a></li>
+      </ul>
     </div>
-  </div>
-
-  <!-- footer -->
-  <div class="container-fluid bg-dark text-light">
-    <div class="row">
-      <div class="col">
-          <ul class="nav justify-content-end">
-            <li class="nav-item"><a class="nav-link text-light" href="#bio">Bio</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="#skills">Skills &amp; Experience</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="#websites">Websites</a></li>
-            <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact Me</a></li> 
-        </ul>
-      </div>
-    </div>
-  </div>
+  </div> 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -233,6 +223,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script src="/js/material-scrolltop.js"></script>
 </body>
 
 </html>

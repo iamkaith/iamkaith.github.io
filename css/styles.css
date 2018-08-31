@@ -1,0 +1,70 @@
+
+
+
+a {
+    color: #D73A31;
+    font-weight: bold;
+}
+
+a:hover  {
+    color: #D73A31;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*
+*
+*  Custom Colours
+*
+*/
+.container-bg {
+    background-color: #36384C;
+}
+
+.primary-color {
+    background-color: #613A43;
+}
+
+.secondary-color {
+    background-color: #849974;
+}
+
+.teal-accent {
+    background-color: #08708A;
+}
+
+.orange-accent {
+    background-color: #D73A31;
+}
+
+.stone-text {
+    color: #D0D3C5;
+}
+
+.charcoal-text {
+    color: #36384C;
+}
+
+
+/*
+*
+* Custom Sizes & Spacing
+*
+*/
+
+.clear-margin-bottom {
+    margin-bottom: 0;
+}
+
+.extra-pad {
+    padding-bottom: 1em;
+}
+
+.img-card {
+    size: 50%;
+}
