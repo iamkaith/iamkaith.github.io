@@ -42,16 +42,16 @@
   <!-- header-->
   <div class="jumbotron jumbotron-fluid text-center primary-colour stone-text clear-margin-bottom">
     <div class="container text-center">
-      <h1 class="display-5">hi my name is kae ramirez</h1>
+      <h1 id="top" class="display-5">hi my name is kae ramirez</h1>
       <p class="lead">i can make things - cut to the chase: <a href="https://github.com/iamkaith">Github page</a> or read on </p>
       </p>
     </div>
   </div>
 
 
-  <div class="jumbotron jumbotron-fluid secondary-colour stone-text">
+  <div class="jumbotron jumbotron-fluid secondary-colour stone-text" id="bio">
     <div class="container text-center">
-      <h1 class="display-5" id="bio">Bio</h1>
+      <h1 class="display-5">Bio</h1>
       <p class="lead">let's get to know each other a little, I'll start</p>
       </p>
     </div>
@@ -77,9 +77,9 @@
 
 
   <!-- skills and experience body --> 
-  <div class="jumbotron jumbotron-fluid secondary-colour stone-text">
+  <div class="jumbotron jumbotron-fluid secondary-colour stone-text" id="skills">
     <div class="container text-center">
-      <h1 class="display-5" id="skills">Skills &amp; Experience</h1>
+      <h1 class="display-5">Skills &amp; Experience</h1>
       <p class="lead">what I can do</p>
     </div>
   </div>
@@ -116,9 +116,9 @@
     </div>
 
     <!-- web apps body -->
-      <div class="jumbotron jumbotron-fluid text-center secondary-colour stone-text">
-          <div class="container">
-            <h1 class="display-4">portfolio</h1>
+      <div class="jumbotron jumbotron-fluid text-center secondary-colour stone-text" id="projects">
+          <div class="container" >
+            <h1 class="display-5">my projects</h1>
             <p class="lead">web apps I've made </p>
             </p>
           </div>
@@ -127,7 +127,9 @@
     <!-- projects -->
     <div class="container text-center charcoal-text extra-pad">
       <div class="row">
-        <div class="col-sm-6">
+        
+        <!-- weather app card -->
+        <div class="col-sm-6 extra-pad">
           <div class="card shadow">
             <img class="card-img-top img-thumbnail" src="/img/weatherApp.PNG" alt="Image of weather app">
             <div class="card-body">
@@ -139,7 +141,8 @@
           </div>
         </div>
 
-        <div class="col-sm-6">
+        <!-- pizza order card --> 
+        <div class="col-sm-6 extra-pad">
           <div class="card shadow">
             <img class="card-img-top img-thumbnail" src="/img/pizzaPlace.PNG" alt="Image of ordering app">
             <div class="card-body">
@@ -155,9 +158,9 @@
     </div>
 
     <!-- websites -->
-    <div class="jumbotron jumbotron-fluid text-center secondary-colour stone-text">
-      <div class="container ">
-        <h1 class="display-4">my websites</h1>
+    <div class="jumbotron jumbotron-fluid text-center secondary-colour stone-text" id="websites">
+      <div class="container">
+        <h1 class="display-5">my websites</h1>
         <p class="lead">Show case of static websites I've created for school and ones I made for fun.</p>
       </div>
     </div>
@@ -204,12 +207,13 @@
   </div> 
 </div>
 
+<!-- scroll to top button -->
 <button class="material-scrolltop" type="button"></button>
 
   <!-- contact me --> 
-  <div class="jumbotron jumbotron-fluid text-center primary-colour stone-text clear-margin-bottom">
+  <div class="jumbotron jumbotron-fluid text-center primary-colour stone-text clear-margin-bottom" id="contact">
     <div class="container">
-      <h1 class="display-4">contact me</h1>
+      <h1 class="display-5">contact me</h1>
       <p class="lead">let's get in touch</p>
       <ul>
         <li>Reach me through: <a href="https://www.linkedin.com/in/kaeramirez/">LinkedIn</a></li>
@@ -218,13 +222,26 @@
     </div>
   </div> 
 
+  <!-- jquery for bootstrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
+  
+    <!-- bootstrap -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <script src="/js/material-scrolltop.js"></script>
+
+
+  <!-- jquery for scroll top --> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- material-scrolltop plugin -->
+  <script src="js/material-scrolltop.js"></script>
+
+  <!-- Initialize material-scrolltop-->
+  <script>
+    $('body').materialScrollTop();
+  </script>
 </body>
 
 </html>
