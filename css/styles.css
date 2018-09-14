@@ -1,10 +1,17 @@
+/*
+*
+* Basic
+*
+*/
+
 a {
     color: #D73A31;
-    font-weight: bold;
+    
 }
 
 a:hover  {
-    color: #D73A31;
+    color: rgb(86, 177, 191);
+    /*color: #D73A31;*/
     font-weight: bold;
     text-decoration: none;
 }
@@ -13,22 +20,26 @@ li {
     list-style-type: none;
 }
 
-
 /*
 *
 *  Custom Colours
 *
 */
 .container-bg {
-    background-color: #36384C;
+    background-color: #eeeeee;
 }
 
+
 .primary-colour {
-    background-color: #613A43;
+    /* background-color: rgb(86, 177, 191); */
+    background-color: #613a43; 
+    
 }
 
 .secondary-colour {
-    background-color: #08708A;
+    /* background-color: #08708A; */ 
+    background-color: rgb(86, 177, 191);
+    
 }
 
 .orange-accent {
@@ -36,28 +47,45 @@ li {
 }
 
 .stone-text {
-    color: #D0D3C5;
+    /* color: #D0D3C5; */
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.stone-text-light {
+    color: white;
+    font-family: 'Oswald-Light', sans-serif;
 }
 
 .charcoal-text {
     color: #36384C;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#credit {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75%;
+}
+
+#credit a {
+    color: white;
+}
+
+#credit a:hover {
+    color: white;
 }
 
 
 /*
 *
-* Custom Sizes & Spacing
+* Custom Spacing
 *
 */
-
 .clear-margin-bottom {
     margin-bottom: 0;
 }
 
 .extra-pad {
     padding-bottom: 1em;
-}
-
-.img-card {
-    size: 50%;
 }
