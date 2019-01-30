@@ -89,3 +89,8 @@ li {
 .extra-pad {
     padding-bottom: 1em;
 }
+
+.thinking {
+    width: 200px;
+    height: 200px;
+}
