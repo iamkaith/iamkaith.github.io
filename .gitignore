@@ -1,0 +1,5 @@
+# parcel-bundler cache 
+.cache
+
+# parcel-bundler dist
+dist
